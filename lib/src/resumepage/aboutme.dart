@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myresume/inc/size_config.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Aboutme extends StatelessWidget {
   const Aboutme({
@@ -75,6 +77,54 @@ class Aboutme extends StatelessWidget {
                         fontSize: 12,
                         fontWeight: FontWeight.bold),
                   ),
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircleAvatar(
+                      radius: 20,
+                      child: Material(
+                          shape: const CircleBorder(),
+                          clipBehavior: Clip.hardEdge,
+                          color: Colors.transparent,
+                          child: InkWell(
+                              onTap: () async {
+                                if (!await launchUrl(
+                                    Uri.parse("https://github.com/BeTure20"))) {
+                                  throw 'Could not launch';
+                                }
+                              },
+                              child: const Center(
+                                child: Icon(
+                                  FontAwesomeIcons.facebook,
+                                  size: 32,
+                                ),
+                              ))),
+                    ),
+                    const SizedBox(
+                      width: 12,
+                    ),
+                    CircleAvatar(
+                      radius: 20,
+                      child: Material(
+                          shape: const CircleBorder(),
+                          clipBehavior: Clip.hardEdge,
+                          color: Colors.transparent,
+                          child: InkWell(
+                              onTap: () async {
+                                if (!await launchUrl(
+                                    Uri.parse("https://github.com/BeTure20"))) {
+                                  throw 'Could not launch';
+                                }
+                              },
+                              child: const Center(
+                                child: Icon(
+                                  FontAwesomeIcons.github,
+                                  size: 32,
+                                ),
+                              ))),
+                    )
+                  ],
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
