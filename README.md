@@ -23,6 +23,8 @@ the design currently is a one page app with three Scroll pages
 
 - MediaQuery for Responsiveness
 - Fontawesome for Font Icon
+- page_transition
+- animated_splash_screen
 
 ## More features:
 
@@ -31,7 +33,7 @@ the design currently is a one page app with three Scroll pages
 
 ## APK link
 
-https://drive.google.com/folderview?id=1T2ouxujRcO8qDZWbpyBgKrQgSkxu_FnZ
+https://drive.google.com/file/d/1GtZSKPUH7nnEB0fCWADUjB5XUYhELcka/view?usp=share_link
 
 ## Challenges:
 
@@ -41,4 +43,4 @@ https://drive.google.com/folderview?id=1T2ouxujRcO8qDZWbpyBgKrQgSkxu_FnZ
 
 ## Appetize.io link
 
-https://appetize.io/app/yyivaikwrlnoup3pz7b2xaheje?device=pixel4&osVersion=11.0&scale=75
+https://appetize.io/app/wsw6vjo3tc7prhmvcx3of3bsq4?device=pixel4&osVersion=11.0&scale=75
